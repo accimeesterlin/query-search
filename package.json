@@ -1,0 +1,38 @@
+{
+  "name": "stringquery",
+  "version": "1.0.2",
+  "description": "Convert query string to an object",
+  "main": "queryString.js",
+  "keywords": [
+    "query",
+    "params",
+    "parameter",
+    "query",
+    "qs",
+    "string",
+    "querystring",
+    "url",
+    "browser",
+    "param",
+    "uri",
+    "parse",
+    "decode",
+    "encode",
+    "react",
+    "react-router-dom",
+    "react-router",
+    "location",
+    "search",
+    "props"
+  ],
+  "author": "Accime Esterling",
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/accimeesterlin/query-search"
+  },
+
+  "engines":{
+    "node":"*"
+  },
+  "license": "MIT"
+}
