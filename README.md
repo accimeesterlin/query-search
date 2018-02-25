@@ -1,7 +1,7 @@
 
 
 # Install
-> npm install query-search
+> npm install stringquery --save
 
 
 
@@ -9,14 +9,14 @@
 ### Usage
 ```
 
-  const querySearch = requiree("stringquery");
+  const querySearch = require("stringquery");
 
   querySearch("?status=APPROVED&page=1&limit=20"); 
   // > { limit: "10", page:"1", status:"APPROVED" }
 
 
 
-  const obj = querySearch("?status=APPROVED&page=1&  limit=20");  
+  const obj = querySearch("?status=APPROVED&page=1limit=20");  
   // > { limit: "10", page:"1",   status:"APPROVED" }
 
 
@@ -36,7 +36,7 @@
 
 
 
-  const obj = querySearch("?status=APPROVED&page=1&  limit=20"); 
+  const obj = querySearch("?status=APPROVED&page=1&limit=20"); 
   // > { limit: "10", page:"1", status:"APPROVED"   }
 
 
