@@ -1,6 +1,6 @@
 {
   "name": "stringquery",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Convert react-router-dom this.props.location.search string to an object",
   "main": "queryString.js",
   "keywords": [
